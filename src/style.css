@@ -59,3 +59,47 @@
   cursor: pointer;
   display: none;
 }
+
+.section {
+  padding: 0 16%;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.main__text__title {
+  font-size: 5.625rem;
+  color: #fff;
+  max-width: 200px;
+  line-height: 1.1;
+  margin-bottom: 60px;
+}
+
+.main__text__button {
+  display: inline-block;
+  width: 230px;
+  height: 58px;
+  background-color: #a32e37;
+  color: #fff;
+  border: none;
+  outline: none;
+  line-height: 58px;
+  font-size: 1.25rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.main__text__button:hover {
+  transform: scale(0.9);
+  background-color: #fff;
+  color: #a32e37;
+}
