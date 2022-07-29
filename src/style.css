@@ -6,3 +6,17 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 16%;
+  background-color: transparent;
+  transition: ease 0.4s;
+}
