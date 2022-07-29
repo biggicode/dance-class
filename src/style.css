@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .header {
@@ -19,4 +20,34 @@
   padding: 2rem 16%;
   background-color: transparent;
   transition: ease 0.4s;
+}
+
+.logo__image {
+  width: 150px;
+  height: auto;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  display: inline-block;
+  color: #040000;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  transition: ease 0.4s;
+}
+
+.nav__link:hover {
+  background-color: #a32e37;
+  color: #fff;
+}
+
+.active {
+  background-color: #a32e37;
+  color: #fff;
 }
