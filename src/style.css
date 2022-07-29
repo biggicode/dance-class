@@ -117,3 +117,44 @@
   right: 7%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 1330px) {
+  .header {
+    padding: 10px 5%;
+  }
+
+  .main__text__title {
+    font-size: 5rem;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 990px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: -800px;
+    left: 0;
+    right: 0;
+    transition: all 0.4s ease;
+  }
+  .nav__list {
+    flex-direction: column;
+    background-color: rgba(8, 5, 0, 0.9);
+    text-align: left;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-left: 2px solid #fff;
+    color: #fff;
+  }
+  .nav.open {
+    top: 100%;
+  }
+}
