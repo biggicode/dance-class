@@ -103,3 +103,17 @@
   background-color: #fff;
   color: #a32e37;
 }
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+}
